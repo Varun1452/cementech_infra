@@ -384,7 +384,7 @@ ul.btn li:last-child {
      justify-content: center;
      align-content: center;
      align-items: center;
-     border-radius: 0 0px 0 140px;
+     border-radius: 0px 0px 140px 140px;
 }
 
 .text-bg {
