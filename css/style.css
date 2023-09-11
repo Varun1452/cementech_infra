@@ -110,7 +110,7 @@ h4 a,
 h5 a,
 h6 a {
      color: #212121;
-     text-decoration: none!important;
+     text-decoration: none !important;
      opacity: 1
 }
 
@@ -155,7 +155,7 @@ img {
      height: auto;
 }
 
- :focus {
+:focus {
      outline: 0;
 }
 
@@ -599,7 +599,7 @@ ul.btn li:last-child {
 
 .services_box i {
      display: inline-block;
-     float: left;
+     float: none;
 }
 
 #co_hocha:hover.services_box {
