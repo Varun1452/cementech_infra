@@ -397,7 +397,7 @@ ul.btn li:last-child {
      color: #111111;
      font-size: 50px;
      line-height: 80px;
-     padding-bottom: 35px;
+     padding-bottom: 0px;
      font-weight: bold;
 }
 
