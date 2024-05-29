@@ -906,10 +906,12 @@ ul.btn li:last-child {
      padding: 20PX;
 }
 .imgow{
+     border-radius: 25px;
      height: 50%;
      width: 100%;
 }
 .videoow{
+     border-radius: 25px;
       height: 50%;
      width: 99%;
 }
@@ -930,6 +932,7 @@ ul.btn li:last-child {
      padding: 20PX;
 }
 .imgowrp{
+     border-radius: 25px;
      height: 50%;
      width: 100%;
 }
