@@ -892,12 +892,44 @@ ul.btn li:last-child {
 /** end conatct section **/
 
 /* our work section */
+.photoheadings{
+     color: #f2db18;
+     text-shadow: 8px 8px 5px #000000;
+     text-align: center;
+     font-weight: 1000;
+     font-size: 50px;
+}
+.maindiv{
+     background: #e1f3fd;
+}
 .image-cont{
      padding: 20PX;
 }
+.imgow{
+     height: 50%;
+     width: 100%;
+}
 /* our work section end */
 
-
+/* running project section */
+.photoheadingsrp{
+     color: #f2db18;
+     text-shadow: 8px 8px 5px #000000;
+     text-align: center;
+     font-weight: 1000;
+     font-size: 50px;
+}
+.maindivrp{
+     background: #e1f3fd;
+}
+.image-contrp{
+     padding: 20PX;
+}
+.imgowrp{
+     height: 50%;
+     width: 100%;
+}
+/* running project section end */
 
 /** footer **/
 
