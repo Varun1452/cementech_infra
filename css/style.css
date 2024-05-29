@@ -911,9 +911,11 @@ ul.btn li:last-child {
      width: 100%;
 }
 .videoow{
+     display: block;
+  margin: auto;
      border-radius: 25px;
       height: 50%;
-     width: 99%;
+     width: 90%;
 }
 /* our work section end */
 
