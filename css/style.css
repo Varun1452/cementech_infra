@@ -890,8 +890,59 @@ ul.btn li:last-child {
 
 
 /** end conatct section **/
+/* our work list page */
+.photoheadingsowl{
+     color: #000000;
+     font-weight: 1000;
+     font-size: 20px;
+}
+.maindivowl{
+     background: #e1f3fd;
+     
+     
+}
 
-/* our work section */
+.button {
+     border-radius: 20px;
+     background-color: #f2db18;
+     border: none;
+     color: black;
+     text-align: center;
+     font-size: 28px;
+     padding: 20px;
+     width: 200px;
+     transition: all 0.5s;
+     cursor: pointer;
+     margin: 5px;
+   }
+   
+   .button span {
+     cursor: pointer;
+     display: inline-block;
+     position: relative;
+     transition: 0.5s;
+   }
+   
+   .button span:after {
+     content: '\00bb';
+     position: absolute;
+     opacity: 0;
+     top: 0;
+     right: -20px;
+     transition: 0.5s;
+   }
+   
+   .button:hover span {
+     padding-right: 25px;
+   }
+   
+   .button:hover span:after {
+     opacity: 1;
+     right: 0;
+   }
+/* our work list page end */
+
+/* our work sectionext */
 .photoheadings{
      color: #f2db18;
      text-shadow: 8px 8px 5px #000000;
@@ -917,7 +968,9 @@ ul.btn li:last-child {
       height: 50%;
      width: 90%;
 }
-/* our work section end */
+
+
+/* our work section endext */
 
 /* running project section */
 .photoheadingsrp{
