@@ -30,6 +30,26 @@
    <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <script>
+function askForPassword() {
+            var password = prompt("Please enter your password:");
+            if (password !== null) {
+                // Add your password validation logic here
+                if (password === "varun") {  // Replace "yourPassword" with the actual password
+                   
+                    window.location.href="cotations.html";
+                } else {
+                    alert("Incorrect password.");
+                }
+            }
+        }
+      </script>
+
+
+
 </head>
 <!-- body -->
 
@@ -65,16 +85,16 @@
                            <li class="nav-item ">
                               <a class="nav-link" href="index.html"> Home </a>
                            </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="allcotations.html">Cotations</a>
-                           </li>
+                           <li class="nav-item active">
+                            <a class="nav-link" href="allcotations.html">Cotations</a>
+                        </li>
                            <li class="nav-item">
                               <a class="nav-link" href="services.html">services </a>
                            </li>
                            <li class="nav-item">
                               <a class="nav-link" href="team.html">Our team </a>
                            </li>
-                           <li class="nav-item active">
+                           <li class="nav-item">
                               <a class="nav-link" href="contact.html">Contact Us</a>
                            </li>
                            <li class="nav-item d_none">
@@ -96,86 +116,77 @@
    </header>
    <!-- end header inner -->
    <!-- end header -->
-   <!-- contact -->
-   <div id="contact" class="contact">
+   <!-- about -->
+   <div class="about">
       <div class="container">
          <div class="row">
-            <div class="col-md-12">
-               <div class="titlepage">
-                  <h2>Requst A call for You</h2>
-               </div>
-            </div>
-         </div>
-         <div class="row">
-            <div class="col-md-6 offset-md-3">
-               <form id="request" class="main_form">
-                  <div class="row">
-                     <div class="col-md-12 ">
-                        <input class="contactus" placeholder="Full Name" type="type" name="Full Name">
-                     </div>
-                     <div class="col-md-12">
-                        <input class="contactus" placeholder="Email" type="type" name="Email">
-                     </div>
-                     <div class="col-md-12">
-                        <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">
-                     </div>
-                     <div class="col-md-12">
-                        <textarea class="textarea" placeholder="Message" type="type" Message="Name">Message </textarea>
-                     </div>
-                     <div class="col-md-12">
-                        <button class="send_btn">Send</button>
-                     </div>
+            <div class="col-md-6 ">
+               <div class="about_box">
+                  <div class="titlepage">
+                     <h2>Cotations</h2>
                   </div>
-               </form>
+                  <p> </p>
+                  <a onclick="askForPassword()" class="read_more" href="./cotationpdfs/sample cotation.pdf" download="sample cotation.pdf" > Download </a>
+               </div>
+
+
+             
+
+
+            </div>
+            <div class="col-md-6">
+               <div class="about_img">
+                  <figure><img src="images/about.png" alt="#" /></figure>
+               </div>
             </div>
          </div>
       </div>
    </div>
-   <!-- end contact -->
+   <!-- end about -->
    <!--  footer -->
    <footer>
-      <div class="footer">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-5">
-                  <ul class="location_icon">
-                     <!-- <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a> Address : <br> is simply
-                        dummy -->
-                     </li>
-                     <li><a href="#"><i class="fa fa-volume-control-phone" aria-hidden="true"></i></a>Phone :   81410 35299
-                     </li>
-                     <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>Email :
-                        cementchinfra@gmail.com</li>
-                  </ul>
-                  <form class="bottom_form">
-                     <h3>Newsletter</h3>
-                     <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
-                     <button class="sub_btn">subscribe</button>
-                  </form>
-               </div>
-               <div class="col-md-7">
-                  <div class="map">
-                     <figure><img src="images/logo1.png" alt="#" /></figure>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="copyright">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12">
-                     <p>Copyright 2019 All Rights Reserved By<a> Cementech Infra<br><br> <br>
-                        DESIGNED BY VARUN V. GAUDANI<br>
-                        <i class="fa fa-volume-control-phone" aria-hidden="true"></i> 94093 79432 <br>
-                        <i class="fa fa-envelope" aria-hidden="true"></i></i> varungaudani80@gmail.com 
-                     </p>
-                      
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </footer
+    <div class="footer">
+       <div class="container">
+          <div class="row">
+             <div class="col-md-5">
+                <ul class="location_icon">
+                   <!-- <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a> Address : <br> is simply
+                      dummy -->
+                   </li>
+                   <li><a href="#"><i class="fa fa-volume-control-phone" aria-hidden="true"></i></a>Phone :   81410 35299
+                   </li>
+                   <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>Email :
+                      cementchinfra@gmail.com</li>
+                </ul>
+                <form class="bottom_form">
+                   <h3>Newsletter</h3>
+                   <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
+                   <button class="sub_btn">subscribe</button>
+                </form>
+             </div>
+             <div class="col-md-7">
+                <div class="map">
+                   <figure><img src="images/logo1.png" alt="#" /></figure>
+                </div>
+             </div>
+          </div>
+       </div>
+       <div class="copyright">
+          <div class="container">
+             <div class="row">
+                <div class="col-md-12">
+                   <p>Copyright 2019 All Rights Reserved By<a> Cementech Infra<br><br> <br>
+                      DESIGNED BY VARUN V. GAUDANI<br>
+                      <i class="fa fa-volume-control-phone" aria-hidden="true"></i> 94093 79432 <br>
+                      <i class="fa fa-envelope" aria-hidden="true"></i></i> varungaudani80@gmail.com 
+                   </p>
+                    
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </footer>
    <!-- end footer -->
    <!-- Javascript files-->
    <script src="js/jquery.min.js"></script>
