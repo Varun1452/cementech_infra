@@ -897,7 +897,7 @@ ul.btn li:last-child {
      position: absolute;
      border-radius: 50%;
      background: linear-gradient(to top right,#f2db18,#f05b11  );
-     top: 50%;
+     top: 45%;
      left: 30%;
      filter: blur(20px);
      animation: gooey;
