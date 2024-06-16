@@ -892,12 +892,12 @@ ul.btn li:last-child {
 }
 
  #contact #gooey{
-     height: 40vw;
-     width: 40vw;
+     height: 30vw;
+     width: 30vw;
      position: absolute;
      border-radius: 50%;
      background: linear-gradient(to top right,#f2db18,#f05b11  );
-     top: 22%;
+     top: 50%;
      left: 30%;
      filter: blur(20px);
      animation: gooey;
