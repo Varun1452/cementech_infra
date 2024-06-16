@@ -828,10 +828,13 @@ ul.btn li:last-child {
 
 .contact {
      padding-top: 90px;
+     position: relative;
 }
 
 .main_form {
      padding: 50px 0px 0px 0px;
+     position: relative;
+     z-index: 9;
 }
 
 .main_form .contactus {
@@ -887,6 +890,35 @@ ul.btn li:last-child {
      color: #8f8d8d;
      opacity: 1;
 }
+
+ #contact #gooey{
+     height: 20vw;
+     width: 20vw;
+     position: absolute;
+     border-radius: 50%;
+     background: linear-gradient(to top right,#f2db18,#f05b11  );
+     top: 45%;
+     left: 40%;
+     filter: blur(20px);
+     animation: gooey;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+     animation-timing-function: ease-in-out;
+
+   }
+
+   @keyframes gooey {
+     from{
+          transform: translate(10%,-10%)skew(10deg);
+     }
+     to{
+          transform: translate(-10%,10%)skew(-20deg);
+     }
+   }
+
+
+
 
 
 /** end conatct section **/
